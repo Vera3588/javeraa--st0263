@@ -84,18 +84,8 @@ archivo de configuración (config/peer_config.json):
 
 #### Estructura de Directorios y Archivos Importantes
 
-javeraa--st0263-main/
-├── Dockerfile
-├── README.md
-├── config/
-│   └── peer_config.json
-├── requirements.txt
-└── services/
-    ├── grpc_service.py
-    ├── mom_service.py
-    ├── pclient.py
-    ├── pserver.py
-    └── rest_service.py
+![image](https://github.com/user-attachments/assets/f2ba564e-8353-4bc4-afa9-1f86facb2a43)
+
 
 ## 5. Descripción del Ambiente de Ejecución
 
