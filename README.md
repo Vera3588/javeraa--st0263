@@ -119,8 +119,8 @@ Buscar Archivos: Utiliza el cliente (pclient.py) para consultar otros nodos sobr
 Compartir Archivos: Los nodos automáticamente comparten el índice de sus archivos con otros nodos en la red.
 
 ## 6. Referencias
-gRPC Official Documentation
-Flask Documentation
-Pika Documentation
-https://www.youtube.com/watch?v=psYAhc9JUyo
+- gRPC Official Documentation
+- Flask Documentation
+- Pika Documentation
+- https://www.youtube.com/watch?v=psYAhc9JUyo
 
