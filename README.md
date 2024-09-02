@@ -73,14 +73,16 @@ IP y Puerto: Dirección y puerto en el que el nodo escucha las solicitudes.
 Directorio de Archivos: Directorio en el que el nodo busca archivos para compartir.
 Peer Semilla: URL de un nodo semilla para unirse a la red.
 
-archivo de configuración (config/peer_config.json):
+#### archivo de configuración (config/peer_config.json):
+
+```js
 {
     "ip": "0.0.0.0",
     "port": 5000,
     "directory": "/path/to/shared/files",
     "seed_peer": "http://peer2.example.com"
 }
-
+```
 
 #### Estructura de Directorios y Archivos Importantes
 
