@@ -51,16 +51,16 @@ Herramientas: Docker (para contenedores), Git (para control de versiones)
 
 #### Compilación y Ejecución
 #### Clonar el Repositorio:
-git clone <https://github.com/Vera3588/javeraa--st0263.git>
-cd javeraa--st0263-main
+> git clone <https://github.com/Vera3588/javeraa--st0263.git>
+> cd javeraa--st0263-main
 
 #### Construir el Contenedor Docker:
 
-docker build -t taller1 .
+> docker build -t taller1 .
 
-Ejecutar el Contenedor:
+#### Ejecutar el Contenedor:
 
-docker run -d -p 50051:50051 taller1
+> docker run -d -p 50051:50051 taller1
 
 ## 4. Detalles del Desarrollo
 #### Detalles Técnicos
