@@ -1,0 +1,14 @@
+syntax = "proto3";  // Usamos proto3 para la simplicidad
+package grpc_service;  
+service PeerService {
+    rpc ListFiles (ListFilesRequest) returns (ListFilesResponse);
+}
+
+// Mensaje vacío usado como solicitud
+message ListFilesRequest {}
+
+// Mensaje que contiene la respuesta con una lista de archivos (strings)
+message ListFilesResponse {
+    // Repeated indica que este campo es una lista
+    repeated string files = 1;
+}

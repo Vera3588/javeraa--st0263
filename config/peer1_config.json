@@ -1,0 +1,6 @@
+{
+    "ip": "0.0.0.0",
+    "port": 5000,
+    "directory": "/path/to/shared/files/peer1",
+    "seed_peer": "192.168.1.2:5000"
+}
